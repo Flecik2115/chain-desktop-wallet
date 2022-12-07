@@ -1,5 +1,6 @@
 import { app, BrowserWindow, nativeImage, ipcMain } from 'electron';
 import * as remoteMain from '@electron/remote/main';
+import './server';
 
 import * as path from 'path';
 
